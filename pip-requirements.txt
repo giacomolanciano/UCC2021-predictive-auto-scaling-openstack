@@ -1,0 +1,15 @@
+ipykernel==5.5.4
+matplotlib==3.4.1
+nbformat>=4.2.0
+numpy==1.20.2
+pandas==1.2.4
+plotly==4.14.3
+torch==1.8.1
+scikit-learn==0.24.2
+scipy==1.6.3
+holoviews==1.14.4
+datashader==0.12.1
+hvplot==0.7.2
+statsmodels==0.12.2
+selenium==3.141.0
+chromedriver-binary==95.0.4638.17.0

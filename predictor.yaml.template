@@ -1,0 +1,47 @@
+Api:
+  ca_file: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  endpoint_type: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  insecure: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  keystone_url: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  password: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  project_domain_id: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  project_domain_name: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  project_name: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  region_name: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  service_type: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  user_domain_name: ### TO BE FILLED (see monasca-agent-forwarder) ###
+  username: ### TO BE FILLED (see monasca-agent-forwarder) ###
+Logging:
+  enable_logrotate: false
+  disable_file_logging: false
+  predictor_log_file: ### TO BE FILLED ###
+  log_level: DEBUG
+Main:
+  forwarder_url: ### TO BE FILLED (see monasca-agent-collector) ###
+  hostname: ### TO BE FILLED (see monasca-agent-collector) ###
+  inference_frequency_seconds: 60
+  predictions:
+    - tenant_id: ### TO BE FILLED (OpenStack project ID) ###
+      dimensions:
+        scale_group: ### TO BE FILLED (ID outputted by the Heat stack) ###
+      metrics: [ cpu.utilization_perc ]
+      out_metric: pred.group.sum.cpu.utilization_perc
+      time_aggregation_statistics: [ avg ]
+      time_aggregation_period_seconds: 60
+      space_aggregation_statistics: [ sum ]
+      group_by: [ "*" ]
+      merge_metrics: false
+      prediction_offset_seconds: 900
+      lookback_period_seconds: 1200
+      #
+      # LR
+      # model_type: "linear"
+      # scaler_path: "<PATH-TO>/data/model_dumps/scaler.joblib" ### TO BE FILLED (absolute path) ###
+      #
+      # MLP
+      # model_path: "<PATH-TO>/data/model_dumps/mlp-20_sum_2021-07-20.pt" ### TO BE FILLED (absolute path) ###
+      # scaler_path: "<PATH-TO>/data/model_dumps/scaler.joblib" ### TO BE FILLED (absolute path) ###
+      #
+      # RNN
+      model_path: "<PATH-TO>/data/model_dumps/rnn-20_sum_2021-07-22.pt" ### TO BE FILLED (absolute path) ###
+      scaler_path: "<PATH-TO>/data/model_dumps/rnn_scaler.joblib" ### TO BE FILLED (absolute path) ###
