@@ -1,3 +1,6 @@
+[![GitHub license](https://img.shields.io/github/license/giacomolanciano/UCC2021-predictive-auto-scaling-openstack)](https://github.com/giacomolanciano/UCC2021-predictive-auto-scaling-openstack/blob/master/LICENSE)
+[![DOI](https://zenodo.org/badge/420148162.svg)](https://zenodo.org/badge/latestdoi/420148162)
+
 # Predictive Auto-scaling with OpenStack Monasca
 
 [Giacomo Lanciano](mailto:giacomo.lanciano@sns.it)\*, Filippo Galli, Tommaso Cucinotta, Davide Bacciu, Andrea Passarella<br>

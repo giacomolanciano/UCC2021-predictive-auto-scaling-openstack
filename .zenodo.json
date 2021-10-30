@@ -1,0 +1,48 @@
+{
+    "description": "Companion repo of the UCC 2021 paper \"Predictive Auto-scaling with OpenStack Monasca\" (<a href=\"https://github.com/giacomolanciano/UCC2021-predictive-auto-scaling-openstack\">https://github.com/giacomolanciano/UCC2021-predictive-auto-scaling-openstack</a>)",
+    "language": "eng",
+    "title": "Archival bundle of the code used for \"Predictive Auto-scaling with OpenStack Monasca\" (UCC 2021)",
+    "license": {
+        "id": "GPL-3.0"
+    },
+    "creators": [
+        {
+            "orcid": "0000-0002-7431-8041",
+            "affiliation": "Scuola Normale Superiore, Italy",
+            "name": "Lanciano, Giacomo"
+        },
+        {
+            "orcid": "0000-0002-2279-3545",
+            "affiliation": "Scuola Normale Superiore, Italy",
+            "name": "Galli, Filippo"
+        },
+        {
+            "orcid": "0000-0002-0362-0657",
+            "affiliation": "Scuola Superiore Sant'Anna, Italy",
+            "name": "Cucinotta, Tommaso"
+        },
+        {
+            "orcid": "0000-0001-5213-2468",
+            "affiliation": "University of Pisa, Italy",
+            "name": "Bacciu, Davide"
+        },
+        {
+            "orcid": "0000-0002-1694-612X",
+            "affiliation": "National Research Council, Italy",
+            "name": "Passarella, Andrea"
+        }
+    ],
+    "conference_acronym": "UCC'21",
+    "conference_dates": "6-9 December 2021",
+    "conference_place": "Leicester, United Kingdom",
+    "conference_title": "2021 IEEE/ACM 14th International Conference on Utility and Cloud Computing",
+    "access_right": "open",
+    "related_identifiers": [
+        {
+            "scheme": "doi",
+            "identifier": "10.1145/3468737.3494104",
+            "relation": "isSupplementTo",
+            "resource_type": "publication-conferencepaper"
+        }
+    ]
+}
