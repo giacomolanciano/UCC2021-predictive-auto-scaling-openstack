@@ -144,13 +144,13 @@ otherwise specified), complete the configuration by applying these steps:
 
 We use [`monasca-predictor`](https://github.com/giacomolanciano/monasca-predictor) to provide OpenStack Monasca with
 forecasting capabilities and enable a predictive auto-scaling strategy. To install the specific version used for our
-experiments (i.e., commit `bd7e164`), assuming that `python3.7` points to version `3.7.10`, run
+experiments (i.e., version `0.1.0`), assuming that `python3.7` points to version `3.7.10`, run
 
 ```bash
 apt-get install python3.7-venv
 git clone https://github.com/giacomolanciano/monasca-predictor
 cd monasca-predictor
-git checkout bd7e164
+git checkout v0.1.0
 make py37
 ```
 
