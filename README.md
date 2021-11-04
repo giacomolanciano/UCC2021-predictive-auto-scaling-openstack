@@ -1,5 +1,6 @@
 [![GitHub license](https://img.shields.io/github/license/giacomolanciano/UCC2021-predictive-auto-scaling-openstack)](https://github.com/giacomolanciano/UCC2021-predictive-auto-scaling-openstack/blob/master/LICENSE)
 [![DOI](https://zenodo.org/badge/420148162.svg)](https://zenodo.org/badge/latestdoi/420148162)
+[![arXiv](https://img.shields.io/badge/arXiv-2111.02133-b31b1b.svg)](https://arxiv.org/abs/2111.02133)
 
 # Predictive Auto-scaling with OpenStack Monasca
 
@@ -24,6 +25,8 @@ auto-scaling policy. However, the proposed framework allows for the easy customi
 needed.
 
 *DOI:* [10.1145/3468737.3494104](https://doi.org/10.1145/3468737.3494104)
+
+*arXiv:* [arXiv:2111.02133](https://arxiv.org/abs/2111.02133)
 
 \* *contact author*
 
