@@ -1,4 +1,5 @@
 {
+    "upload_type": "software",
     "description": "Companion repo of the UCC 2021 paper \"Predictive Auto-scaling with OpenStack Monasca\" (<a href=\"https://github.com/giacomolanciano/UCC2021-predictive-auto-scaling-openstack\">https://github.com/giacomolanciano/UCC2021-predictive-auto-scaling-openstack</a>)",
     "language": "eng",
     "title": "Archival bundle of the code used for \"Predictive Auto-scaling with OpenStack Monasca\" (UCC 2021)",
